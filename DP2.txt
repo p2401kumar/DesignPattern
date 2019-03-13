@@ -1,0 +1,45 @@
+//Requirement1
+//implement stack data Structure in C as a library so that other programmers
+//can use it
+
+//Developer 1 ------------------------
+
+//Multi-Instance Design
+
+struct Stack // New Data Type
+{
+	int items[10]; //Instance Data Member
+	int top = 0; //Instance Data Member
+};
+
+void push(Stack *s, int item) //Instance Methods
+{
+	s->items[s->top] = item;
+	s->top++;
+}
+
+int pop(Stack *s) //Instance Methods
+{
+	s->top--
+	return s->items[s->top];
+}
+
+//------------------------------------
+
+//Developer 2
+void main()
+{
+	Stack s1, s2, s3; //multiple instances
+	//each instance will have its own copy of items and top
+	
+	push(&s1, 100);
+	push(&s1, 200);
+	push(&s1, 300);
+	
+	push(&s2, 1000);
+	push(&s2, 2000);
+	push(&s2, 3000);
+	
+	int item = pop(&s1); //300
+	item = pop(&s2); //3000
+}

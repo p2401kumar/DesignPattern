@@ -1,0 +1,33 @@
+//Requirement1
+//implement stack data Structure in C as a library so that other programmers
+//can use it
+
+//Developer 1 ------------------------
+
+//Single Instance Design
+int items[10];
+int top = 0;
+
+void push(int item)
+{
+	items[top] = item;
+	top++;
+}
+
+int pop()
+{
+	top--
+	return items[top];
+}
+
+//------------------------------------
+
+//Developer 2
+void main()
+{
+	push(100);
+	push(200);
+	push(300);
+	
+	int item = pop();
+}
