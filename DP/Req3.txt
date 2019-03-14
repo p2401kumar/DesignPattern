@@ -1,0 +1,13 @@
+Requirement:
+in a CAD application, a room has a PC, a window and Door
+
+Create PCs, Windows, Doors in a room with operations 
+that can be applied on them, Each operations should be undone.
+
+All the things have x,y, width and height
+x,y done together
+width ,height changed seprately
+
+for PC - we can change the color
+for Door - can be turned
+window - can be open or close

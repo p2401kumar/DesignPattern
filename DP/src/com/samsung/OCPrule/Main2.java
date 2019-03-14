@@ -1,4 +1,5 @@
-package com.samsung;
+// Refer Req1
+package com.samsung.OCPrule;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -53,7 +54,7 @@ abstract class Command{
 
     // it should not become part of any sub-class object
     static ArrayList<Command> commands = new ArrayList<>();
-    Command(/*com.samsung.Command this = ref. of sub-class object */){
+    Command(/*com.samsung.OCPrule.Command this = ref. of sub-class object */){
         commands.add(this);
     }
 
@@ -63,7 +64,7 @@ abstract class Command{
 //Implementations: Commands are varying, hence encapsulate them
 class AddCommand extends Command{
 
-    AddCommand(/* com.samsung.AddCommand this = ref. of object */){
+    AddCommand(/* com.samsung.OCPrule.AddCommand this = ref. of object */){
         super(/*value of this*/);
     }
 
@@ -78,7 +79,7 @@ class AddCommand extends Command{
 }
 class MulCommand extends Command{
 
-    MulCommand(/*com.samsung.MulCommand this = ref. of object*/){
+    MulCommand(/*com.samsung.OCPrule.MulCommand this = ref. of object*/){
         super(/*value of this*/);
     }
 
