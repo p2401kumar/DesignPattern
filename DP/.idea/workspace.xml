@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a8c4b0-9aad-40b5-87b1-028d92a3e3b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/samsung/MementoPattern/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Req3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Req3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samsung/MementoPattern/Req3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samsung/Main4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DP3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/Door.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/Item$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/Item$Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/Item$Width.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/Main4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/ObjectState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DP/com/samsung/Windows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samsung/MementoPattern/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samsung/MementoPattern/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DP1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DP2.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,52 +27,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/samsung/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/samsung/ObserverPattern/Req5.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/samsung/OCPrule/Main2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/samsung/MementoPattern/Main4.java">
+        <entry file="file://$PROJECT_DIR$/src/com/samsung/ObserverPattern/Main6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="124" column="6" selection-start-line="124" selection-start-column="6" selection-end-line="124" selection-end-column="6" />
+            <state relative-caret-position="227">
+              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
-                <element signature="e#1216#1217#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2157#2158#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1757#1758#0" expanded="true" />
+                <element signature="e#1850#1851#0" expanded="true" />
+                <element signature="e#1890#1891#0" expanded="true" />
+                <element signature="e#2366#2367#0" expanded="true" />
+                <element signature="e#2410#2411#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/samsung/MementoPattern/Req3.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -92,14 +79,20 @@
         <option value="$PROJECT_DIR$/src/com/samsung/Main2.java" />
         <option value="$PROJECT_DIR$/src/com/samsung/Main3.java" />
         <option value="$PROJECT_DIR$/src/com/samsung/FactoryPattern/Main3.java" />
-        <option value="$PROJECT_DIR$/DP3.txt" />
         <option value="$PROJECT_DIR$/src/com/samsung/Main4.java" />
+        <option value="$PROJECT_DIR$/Req4.txt" />
+        <option value="$PROJECT_DIR$/src/com/samsung/MementoPattern/Main4.java" />
+        <option value="$PROJECT_DIR$/src/com/samsung/Main5.java" />
+        <option value="$PROJECT_DIR$/src/com/samsung/CallbackPattern/Main5.java" />
+        <option value="$PROJECT_DIR$/src/com/samsung/ObserverPattern/Req5.txt" />
+        <option value="$PROJECT_DIR$/DP3.txt" />
+        <option value="$PROJECT_DIR$/src/com/samsung/ObserverPattern/Main6.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="615" />
-    <option name="y" value="-13" />
+    <option name="x" value="46" />
+    <option name="y" value="-15" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
@@ -133,22 +126,7 @@
               <item name="DP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="samsung" type="462c0819:PsiDirectoryNode" />
-              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="samsung" type="462c0819:PsiDirectoryNode" />
-              <item name="MementoPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="samsung" type="462c0819:PsiDirectoryNode" />
-              <item name="MementoPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Main4.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="ObserverPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,12 +136,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552592643971" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552604340082" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\training\IdeaProjects\DP\src\com\samsung\CallbackPattern" />
+      <recent name="C:\Users\training\IdeaProjects\DP\src\com\samsung\MementoPattern" />
       <recent name="C:\Users\training\IdeaProjects\DP\src\com\samsung\FactoryPattern" />
       <recent name="C:\Users\training\IdeaProjects\DP\src\com\samsung\OCPrule" />
     </key>
@@ -180,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main4">
+  <component name="RunManager" selected="Application.Main5">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.samsung.Main" />
       <module name="DP" />
@@ -230,14 +210,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samsung.CallbackPattern.Main5" />
+      <module name="DP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samsung.CallbackPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main4" />
+      <item itemvalue="Application.Main5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
@@ -260,6 +255,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15167095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,6 +318,40 @@
     <entry file="file://$PROJECT_DIR$/src/com/samsung/FactoryPattern/Req2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/DP2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/MementoPattern/Req3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/MementoPattern/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#2734#2735#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/samsung/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -331,7 +361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/samsung/OCPrule/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-221">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -339,41 +369,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DP2.txt">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DP1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DP3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="182">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/samsung/MementoPattern/Req3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/samsung/MementoPattern/Main4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/CallbackPattern/Main5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="124" column="6" selection-start-line="124" selection-start-column="6" selection-end-line="124" selection-end-column="6" />
+        <state relative-caret-position="221">
+          <caret line="28" column="61" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/CallbackPattern/Req4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/ObserverPattern/Req5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/ObserverPattern/Main6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
           </folding>
         </state>
       </provider>
