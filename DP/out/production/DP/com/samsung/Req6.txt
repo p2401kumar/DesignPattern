@@ -1,0 +1,2 @@
+Requirement:
+whenever button click is called it should notify window that its clicked.

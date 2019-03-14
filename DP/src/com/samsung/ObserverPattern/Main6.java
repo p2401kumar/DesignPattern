@@ -22,6 +22,7 @@ class CameraDeviceDriverSimulator {
         secondaryThread = new Thread(() -> {
             startLoop();
         });
+        secondaryThread.setDaemon(true);
         secondaryThread.start(); // MT starts ST
     }
 
