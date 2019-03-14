@@ -1,0 +1,19 @@
+Tools to develop OO Application
+
+SRP - Single Responsibility
+OCP - Open Close Principle
+LSP - Liskov Substitution Principle
+IS - Interface Segregation
+DI - Dependency Inversion
+
+
+Extensible
+Maintainable
+Responsibility
+
+
+Design Patterns
+    Factory Method{
+        - Obtaining extra information about the objects that it created
+        - creates Object some implementation
+    }
