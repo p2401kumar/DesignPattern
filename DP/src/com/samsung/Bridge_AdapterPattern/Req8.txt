@@ -1,0 +1,29 @@
+Requirement:
+Develop UI Controls Library containing Button, Grid and ListBox to be used by applications.
+These applications will run on TV set-top box.
+The settop box will be running some operating system, may be windows CE, embedded linux, VxWorks etc. Each OS comes with
+Graphics Library which used GPU. For ex. Windows CE comes with DirectX, Embedded Linux can have OpenGL etc.
+UI Control Class must use the OS specific library to perform their their drawing.
+(The way Google Earth app does). Means our classes should be designed in such a wau that they can configured to use differnt
+OS specific graphics Libraries.
+
+problem: //create each component for each OS
+
+class ButtonDirectX{
+
+}
+
+class ButtonOpenGL{
+
+}
+
+public class Main11 {
+    public static void main(String[] args){
+
+    }
+}
+
+extras:
+Panel holding Controls: Composite
+Button when Clicked - Observer
+Lisbox - Iterator pattern

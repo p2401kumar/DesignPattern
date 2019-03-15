@@ -1,0 +1,9 @@
+Allen Shallowik book
+
+Comman-Variability Analysis
+
+for Req8.txt
+this says: identify variability like Grid, ListBox, VxWorks
+put the commanality and connect the variability with arrow
+
+

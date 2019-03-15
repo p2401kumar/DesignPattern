@@ -2,6 +2,11 @@ package com.samsung.CompositePattern;
 
 import java.util.ArrayList;
 
+//Marker Interface
+interface NonComposable {
+
+}
+
 abstract class Component {
     private String name;
 
@@ -30,26 +35,29 @@ abstract class Composite extends Component {
         super(name);
     }
 
-    public void add(Component component) {
+    public void add(Component component) throws Exception {
+        if (component instanceof NonComposable) {
+            throw new Exception("Component is non-composable");
+        }
         components.add(component);
     }
 
     public void show(/*Component this*/) {
         super.show(/*value of this*/);
-        for (Component component: components) {
+        for (Component component : components) {
             component.show();
         }
     }
 
     public void hide(/*Component this*/) {
         super.hide(/*value of this*/);
-        for (Component component: components) {
+        for (Component component : components) {
             component.hide();
         }
     }
 }
 
-class Window extends Composite {
+class Window extends Composite implements NonComposable {
     public Window(String name) {
         super(name);
     }
@@ -73,28 +81,31 @@ public class Main9 {
         Button b1 = new Button("b1");
         Button b2 = new Button("b2");
 
-        w1.add(b1);
-        w1.add(b2);
+        try {
+            w1.add(b1);
+            w1.add(b2);
 
-        w1.show();
-        System.out.println("----------------");
-        w1.hide();
-        System.out.println("----------------");
+            w1.show();
+            System.out.println("----------------");
+            w1.hide();
+            System.out.println("----------------");
 
-        Panel p1 = new Panel("p1");
-        Button b3 = new Button("b3");
-        Button b4 = new Button("b4");
+            Panel p1 = new Panel("p1");
+            Button b3 = new Button("b3");
+            Button b4 = new Button("b4");
 
-        p1.add(b3);
-        p1.add(b4);
+            p1.add(b3);
+            p1.add(b4);
 
-        w1.add(p1);
-        w1.show();
-        System.out.println("----------------");
-        p1.hide();
-        System.out.println("----------------");
-        w1.show();
-        System.out.println("----------------");
-
+            w1.add(p1);
+            w1.show();
+            System.out.println("----------------");
+            p1.hide();
+            System.out.println("----------------");
+            w1.show();
+            System.out.println("----------------");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
