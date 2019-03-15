@@ -1,0 +1,2 @@
+Requirement:
+Composite pattern having capability of simple AWT in UI java

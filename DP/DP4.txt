@@ -1,0 +1,5 @@
+all functions are virtual except
+private methods
+static method
+final method
+constructor method
