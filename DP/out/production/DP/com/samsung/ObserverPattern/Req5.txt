@@ -1,5 +1,0 @@
-Requirement:
-Define a function that accepts a number and generates multiplication table
-of that number from 1 to 10
-
-add/remove callback while process life time(extension of callback Pattern)

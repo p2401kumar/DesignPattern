@@ -1,8 +1,0 @@
-Requirement: 
-display 0.0 on console
-add 10
-=10.0
-add 4
-=14.0
-mul 4
-=56.0
