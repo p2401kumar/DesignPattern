@@ -1,0 +1,1 @@
+Classes can be encapsulated but functions are not

@@ -1,0 +1,80 @@
+Requirement:
+getting time estimation and cost estimation is important.
+
+Create a software - which works like this:
+
+open notepead
+close
+open notepad
+write something
+close it
+*prompt appear{
+    save - {
+        new window appear{
+            Save As dialog{
+                top bar folder -
+                bottom filter - file type
+                select encoding - decides file extension
+                button save -  save the file and notepad didnt close
+                write something and close{
+                    prompt appear*
+                }
+                just close{
+
+                }
+            }
+        }
+
+    }
+    Dont save - prompt & window disapper
+    Cancel - prompt disappear
+    cross - prompt disappear
+}
+
+closeHandler Code{
+        class NotepadWindow { //extends JFrame
+            public void show(){
+                // register the closeHandler() to be called on click of close button
+                // call setvisible(true); // starts Event Dispatch Thread
+            }
+
+            public void newHandler() {
+
+            }
+
+            public void Openhandler() {
+
+            }
+
+            public void saveHandler() {
+
+            }
+
+            public void closeHandler(){
+
+            }
+        }
+
+
+        // if new text has been typed
+        // YES
+        // {
+            // Show the Prompt: Title, Cancel, Dont save, Save
+            // if Cancel: Hide the prompt go back to Notepad Window
+            // if Dont save: close the Prompt and Notepad Window also
+
+            // if Untitled
+            // {
+                    // If save: show save file dialog, Options
+                    // If cancel: Hide Save Dialog and go bacj to Notepad window
+                    // If save: Save the Text to file and go back to NoteWindow
+            // }
+            // else
+            // {
+            // }
+        // }
+        // NO
+        // {
+            // close Notepad Window
+        // }
+}
