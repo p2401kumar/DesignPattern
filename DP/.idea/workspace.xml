@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a8c4b0-9aad-40b5-87b1-028d92a3e3b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DP6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samsung/Bridge_AdapterPattern/Main11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samsung/Bridge_AdapterPattern/Req8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samsung/TemplateMethodPattern/Main12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samsung/BuilderPattern/Main15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samsung/Main16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samsung/CompositePattern/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samsung/CompositePattern/Main9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samsung/Main11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samsung/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samsung/Main15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samsung/Main15.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +17,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/samsung/Main15.java">
+        <entry file="file://$PROJECT_DIR$/src/com/samsung/Main16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,12 +85,14 @@
         <option value="$PROJECT_DIR$/src/com/samsung/Main14.java" />
         <option value="$PROJECT_DIR$/src/com/samsung/TemplateMethodPattern/Main14.java" />
         <option value="$PROJECT_DIR$/src/com/samsung/Main15.java" />
+        <option value="$PROJECT_DIR$/src/com/samsung/BuilderPattern/Main15.java" />
+        <option value="$PROJECT_DIR$/src/com/samsung/Main16.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="-12" />
+    <option name="x" value="10" />
+    <option name="y" value="-9" />
     <option name="width" value="1400" />
     <option name="height" value="737" />
   </component>
@@ -127,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552688982262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552695340868" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -152,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main12">
+  <component name="RunManager" selected="Application.Main15">
     <configuration name="Main11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samsung.Bridge_AdapterPattern.Main11" />
       <module name="DP" />
@@ -179,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samsung.Main7" />
+    <configuration name="Main15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samsung.BuilderPattern.Main15" />
       <module name="DP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samsung.InteratorPattern.*" />
+          <option name="PATTERN" value="com.samsung.BuilderPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main7" />
       <item itemvalue="Application.Main8" />
       <item itemvalue="Application.Main9" />
       <item itemvalue="Application.Main11" />
       <item itemvalue="Application.Main12" />
+      <item itemvalue="Application.Main15" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main15" />
         <item itemvalue="Application.Main12" />
         <item itemvalue="Application.Main9" />
         <item itemvalue="Application.Main11" />
         <item itemvalue="Application.Main8" />
-        <item itemvalue="Application.Main7" />
       </list>
     </recent_temporary>
   </component>
@@ -325,14 +327,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/samsung/FactoryPattern/Req2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DP2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DP1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/samsung/MementoPattern/Req3.txt">
@@ -510,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DP3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19992">
@@ -647,27 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/samsung/TemplateMethodPattern/Main12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/samsung/TemplateMethodPattern/Main14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -675,10 +641,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/samsung/Main15.java">
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/TemplateMethodPattern/Main12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+          <folding>
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/BuilderPattern/Main15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding>
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/samsung/Main16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
